@@ -18,6 +18,7 @@
 @media (max-width: 540px) {
    .menu__list {
       column-gap: 40px;
+      display: none;
    }
 
    .header__inner {
@@ -138,6 +139,14 @@
 }
 
 //Media --Collection ---------------------------------------------------
+
+@media (max-width: 1100px) {
+
+   .collection__body {
+      flex-wrap: wrap;
+   }
+
+}
 
 @media (max-width: 760px) {
 
@@ -442,10 +451,6 @@
 
 @media (max-width: 540px) {
 
-   .menu__list {
-      display: none;
-   }
-
    .header__logo {
       margin: 0;
    }
@@ -454,11 +459,11 @@
       position: fixed;
       top: 0;
       right: 0;
-      padding: 100px 100px 50px 100px;
+      padding: 80px 100px 50px 100px;
       background-color: #FFFFFF;
       box-shadow: 0px 0px 15px #00000042;
       overflow-y: scroll;
-      transform: translateX(0%);
+      transform: translateY(-110%);
       transition: all 0.2s ease-in;
       z-index: 10;
 
@@ -674,7 +679,7 @@
 
 
 
-// --------------------------------------------------MEDIA CONTACT --------------------------------------------
+// --------------------------------------------------MEDIA BLOG --------------------------------------------
 
 
 @media (max-width: 830px) {

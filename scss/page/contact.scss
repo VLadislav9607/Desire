@@ -31,6 +31,16 @@
       column-gap: 40px;
       margin-bottom: 21px;
 
+      & .contact__social__link{
+         display: inline-block;
+         transition: transform 0.2s ease-in;
+
+         &:hover {
+            transform: translateY(-2px);
+
+         }
+      }
+
    }
 
    &__text {

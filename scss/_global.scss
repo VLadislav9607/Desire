@@ -42,16 +42,12 @@ body {
 }
 
 .hidden {
-	transform: translateX(150%) !important;
-	transition: all 0.3s ease-in;
-	display: none;
+	transform: translateY(0%) !important;
 }
 
 .hidden--gallery {
 	display: grid !important;
 }
-
-
 
 .title__bem {
 	font-family: 'Montserrat';
@@ -60,4 +56,22 @@ body {
 	line-height: 51px;
 	text-align: center;
 	color: $black;
+}
+
+body::-webkit-scrollbar {
+	width: 12px;
+}
+
+// body::-webkit-scrollbar-track {
+// 	background: orange;
+// 	/* цвет зоны отслеживания */
+// }
+
+body::-webkit-scrollbar-thumb {
+	background-color: #eed987;
+	/* цвет бегунка */
+	border-radius: 20px;
+	/* округлось бегунка */
+	border: 3px solid #FFFFFF;
+	/* отступ вокруг бегунка */
 }
